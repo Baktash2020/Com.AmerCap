@@ -14,7 +14,7 @@ public class TestRun {
 		
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("https://www.amcfg.com/conventional/");
+		driver.get("");
 		driver.manage().window().maximize();
 		Thread.sleep(3000);
 		

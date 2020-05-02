@@ -1,1 +1,10 @@
+TestNg\Com\AmerCap\ConventionalLoans.class
+TestNg\Com\AmerCap\LoanProgramsDropDowns.class
+TestNg\Com\AmerCap\SeleniumBasicCodes.class
+TestNg\Com\AmerCap\Contact.class
+TestNg\Com\AmerCap\TestRun.class
+AmerCapPages\ContactsPageObjects.class
+TestNg\Com\AmerCap\NewApplicantRegistration.class
 TestNg\Com\AmerCap\AppTest.class
+TestNg\Com\AmerCap\NavigateTest.class
+TestNg\Com\AmerCap\SignUp.class

@@ -13,9 +13,10 @@ public class ConventionalLoans {
 			
 			WebDriver driver = new ChromeDriver();
 			
-			//driver.get("https://www.amcfg.com/conventional/");
+			//driver.get("");
 			
-			driver.navigate().to("https://www.amcfg.com/conventional/");
+			
+			driver.navigate().to("");
 			driver.manage().window().maximize();
 			Thread.sleep(3000);
 			
@@ -25,10 +26,14 @@ public class ConventionalLoans {
 			String title= driver.getTitle();
 			System.out.println(title);
 			
-	driver.findElement(By.xpath("//*/div[1]/div/div[1]/div[2]/div/div[1]/input")).sendKeys("Nillab");
+			
+	driver.findElement(By.xpath("//*/div[1]/div/div[1]/div[2]/div/div[1]/input")).sendKeys("Sheetal");
+	// firstName.clear();
+	
+	
 	driver.findElement(By.xpath("//*/div[1]/div/div[1]/div[3]/div/div[1]/input")).sendKeys("Jan Qand");
 	
-	driver.findElement(By.xpath("//*/div[1]/div/div[1]/div[4]/div/div[1]/input")).sendKeys("nilabat@gmail.com");
+	driver.findElement(By.xpath("//*/div[1]/div/div[1]/div[4]/div/div[1]/input")).sendKeys("sheetal@gmail.com");
 	
 	driver.findElement(By.xpath("//*/div[1]/div/div[1]/div[5]/div/div[1]/input")).sendKeys("571 3312345");
 	
@@ -42,20 +47,33 @@ public class ConventionalLoans {
 	
 	driver.findElement(By.xpath("//*/div[1]/div/div[1]/div[9]/div/select")).isSelected();
 	
-	driver.findElement(By.xpath("//*/div[1]/div/div[2]/div/a")).isEnabled();
+	//driver.findElement(By.xpath("//*/div[1]/div/div[2]/div/a")).isEnabled();
 	
-	WebElement Contacts = driver.findElement(By.linkText("Contact"));
+	Thread.sleep(3000);
 	
-	String Contact = Contacts.getText();
+	WebElement AboutUs = driver.findElement(By.linkText("About Us"));
 	
-	System.out.println(Contact);
+   String Aboutus = AboutUs.getText();
+    
 	
+	System.out.println(Aboutus);
 	
-
-			Thread.sleep(3000);
+	AboutUs.click();
+	
+	Thread.sleep(3000);
 			
+	String url1 = driver.getCurrentUrl();
 		
-			driver.quit();
+	System.out.println(url1);
+		
+	String title1 = driver.getTitle();
+		
+	System.out.println(title1);
+	
+	
+		
+		
+	driver.quit();
 			
 
 		}

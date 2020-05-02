@@ -12,7 +12,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\nilab\\Desktop\\Librar
 		
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("https://www.amcfg.com/");
+		driver.get("");
 		driver.manage().window().maximize();
 		Thread.sleep(30);
 		driver.quit();
