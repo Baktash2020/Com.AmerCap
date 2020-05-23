@@ -21,7 +21,7 @@ public class SignUp {
 			//driver.get("");
 			
 			
-			driver.navigate().to(" https://www.amcfg.com/conventional/");
+			driver.navigate().to("");
 			driver.manage().window().maximize();
 			Thread.sleep(3000);
 			
