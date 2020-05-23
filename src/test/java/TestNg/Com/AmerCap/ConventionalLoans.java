@@ -8,15 +8,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class ConventionalLoans {
 
 	public static void main(String[] args) throws InterruptedException {
+		
 
-		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\nilab\\Desktop\\Libraries\\chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aqdas\\Desktop\\GoogleChrome\\chromedriver.exe");
 			
 			WebDriver driver = new ChromeDriver();
 			
 			//driver.get("");
 			
 			
-			driver.navigate().to("");
+			driver.navigate().to(" https://www.amcfg.com/conventional/");
 			driver.manage().window().maximize();
 			Thread.sleep(3000);
 			

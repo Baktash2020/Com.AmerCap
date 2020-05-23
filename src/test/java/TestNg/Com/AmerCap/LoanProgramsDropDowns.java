@@ -13,12 +13,12 @@ public class LoanProgramsDropDowns {
 	public static void main(String[] args) throws InterruptedException {
 
 
-System.setProperty("webdriver.chrome.driver", "C:\\Users\\nilab\\Desktop\\Libraries\\chromedriver.exe");
+       System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aqdas\\Desktop\\GoogleChrome\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		
 		driver.manage().deleteAllCookies();
-		driver.navigate().to("");
+		driver.navigate().to("https://www.amcfg.com/loan-programs/");
 		driver.manage().window().maximize();
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

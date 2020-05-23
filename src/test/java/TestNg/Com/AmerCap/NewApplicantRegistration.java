@@ -9,7 +9,7 @@ public class NewApplicantRegistration {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\nilab\\Desktop\\Libraries\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aqdas\\Desktop\\GoogleChrome\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
