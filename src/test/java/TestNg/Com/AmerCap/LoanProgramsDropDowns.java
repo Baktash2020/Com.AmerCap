@@ -18,7 +18,7 @@ public class LoanProgramsDropDowns {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.manage().deleteAllCookies();
-		driver.navigate().to("https://www.amcfg.com/loan-programs/");
+		driver.navigate().to("");
 		driver.manage().window().maximize();
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
